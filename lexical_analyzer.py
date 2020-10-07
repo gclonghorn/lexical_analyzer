@@ -1,3 +1,4 @@
+from sys import argv
 class LA:
 
 
@@ -99,7 +100,7 @@ class LA:
 
 
 if __name__ == "__main__":
-    input=open("$input")
+    input=open(argv[1])
     la=LA(input)
     la.Scanner()
 
