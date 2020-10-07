@@ -99,7 +99,7 @@ class LA:
 
 
 if __name__ == "__main__":
-    input=open("/tests/2.in")
+    input=open("$input")
     la=LA(input)
     la.Scanner()
 
