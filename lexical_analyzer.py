@@ -90,7 +90,7 @@ class LA:
                         else:
                             break
                     i -= 1 #回退
-                    print("Int("+tmp_str+')')
+                    print ("Int("+str(int(tmp_str))+")")
                     tmp_str=''
                 #其他字符
                 else:
